@@ -1,0 +1,116 @@
+.outerbox {
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    padding-top: 50%;
+    position: relative;
+}
+
+.wrapper img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 100%;
+    width: 100%;
+
+    display: block;
+    margin: auto;
+    background-position: center;
+}
+
+.wrapper h1 {
+    position: absolute;
+    color: rgb(129, 5, 26);
+    top: 10px;
+    bottom: 0;
+    left: 45%;
+    right: 0;
+
+    font-family: 'Pirata One', cursive;    
+    font-size: 60px;
+    transform: rotate(-10deg);
+    font-style: italic;
+    white-space: pre;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 65%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin: 0;
+    font: 14px Sans-Serif;
+    box-sizing: border-box;
+}
+
+.header .show {
+    position: absolute;
+    top: 10%;
+}
+
+.header .show .show-avatar img{
+    position: relative;
+    width: 50%;
+    float: left;
+    top: 10px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-position: center;
+    border: 5px solid #fff;
+}
+
+.header .show .show-information {
+    position: relative;
+    width: 50%;
+    float: right;
+
+    margin-bottom: 16px;
+    top: 5px;
+    bottom: 0;
+    left: 80px;
+    right: 0;
+    text-align: left;
+}
+
+.header .show .show-information .themify-ti-star,
+.header .show .show-information .dye {
+    color: rgb(250, 250, 0);
+}
+
+.header .themify-ti-shift-right-alt {
+    text-align: center;
+    margin-top: 15px;
+    display: block;
+}
+
+.header .themify-ti-shift-right-alt .ti-shift-right-alt{
+    font-size: 20px;
+    color: rgb(96, 221, 183);
+}
+
+.header .themify-ti-shift-right-alt a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.header .show .show-information,
+.header .show .show-avatar img{
+    align-content: space-around;
+}
